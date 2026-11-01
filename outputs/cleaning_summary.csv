@@ -1,0 +1,8 @@
+Metric,Value
+Original rows,541909
+Exact duplicates removed,5268
+Rows after deduplication,536641
+Missing InvoiceDate,0
+Missing CustomerID,135037
+Valid sales rows,524878
+Rows used for customer analysis,392692

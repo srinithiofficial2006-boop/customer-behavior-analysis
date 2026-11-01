@@ -1,0 +1,23 @@
+CUSTOMER BEHAVIOR ANALYSIS — ANALYSIS SUMMARY
+
+OVERALL METRICS
+Total revenue: £10,642,110.80
+Distinct orders: 19,962
+Customers with known IDs: 4,338
+Unique products: 3,922
+Repeat customer rate: 65.6%
+
+KEY FINDINGS
+Top product by revenue: DOTCOM POSTAGE
+Top country by revenue: United Kingdom
+Monthly revenue table: outputs/monthly_revenue.csv
+Top products table: outputs/top_products.csv
+Top countries table: outputs/top_countries.csv
+Customer RFM table: outputs/customer_rfm.csv
+
+NOTES
+Revenue = Quantity × UnitPrice.
+Sales analysis excludes cancelled invoices and rows with invalid dates,
+non-positive quantity, or non-positive unit price.
+Customer-level analysis excludes transactions with missing customer IDs.
+Currency is shown as GBP (£); verify currency with the dataset source before external use.
